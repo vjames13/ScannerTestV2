@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+       android:text="ERP to Search: "
+       android:textAppearance="?android:attr/textAppearanceSmall"
+       android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+          android:id="@+id/textsearchERP"
+          android:layout_margin="10dp" />
+  <Button
+            android:text="Check Successful Upload"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonCheck" />
+  <Button
+           android:text="Show Retrieved Result"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/buttonShow" />
+  <TextView
+          android:text="Barcode Scan: "
+          android:textAppearance="?android:attr/textAppearanceSmall"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textBarcode"
+          android:layout_margin="10dp" />
+  <TextView
+         android:text="Unit ERP:"
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/textERP"
+         android:layout_margin="10dp" />
+  <TextView
+         android:text="Unit Brand:"
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/textBrand"
+         android:layout_margin="10dp" />
+  <TextView
+         android:text="Unit Inspector:"
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/textInspector"
+         android:layout_margin="10dp" />
+  <TextView
+         android:text="Unit Inspection Date:"
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/textInspectionDate"
+         android:layout_margin="10dp" />
+</LinearLayout>
